@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Platforms>AnyCPU</Platforms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BrowserWindow\native\chromely_libui.dll" />
+    <None Remove="BrowserWindow\native\chromely_libui.dylib" />
+    <None Remove="BrowserWindow\native\chromely_libui.so" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="BrowserWindow\native\chromely_libui.dll" />
+    <EmbeddedResource Include="BrowserWindow\native\chromely_libui.dylib" />
+    <EmbeddedResource Include="BrowserWindow\native\chromely_libui.so" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <PackageReference Include="System.Collections.Specialized" Version="4.3.0" />
+    <PackageReference Include="System.IO.UnmanagedMemoryStream" Version="4.3.0" />
+   </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Remove="CefGlue\Interop\Base\cef_string_t.disabled.cs" />
+  </ItemGroup>
+      
+  <ItemGroup>
+    <ProjectReference Include="..\Chromely.Core\Chromely.Core.csproj" />
+  </ItemGroup>
+
+</Project>
