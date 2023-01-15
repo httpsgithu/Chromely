@@ -1,9 +1,17 @@
+# ** Announcement ** - Chromely is no longer being maintained! 
+
+For those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.
+
+Thanks to all the contributors over the years for making the platform a great learning place.
+
+Thank you all.
+------------------------------------------------------------------------------------------------------------------------------------------
 <p align="center"><img src="https://github.com/chromelyapps/Chromely/blob/master/nugets/chromely.ico?raw=true" /></p>
 <h1 align="center">Chromely</h1>
 
 <br />
 
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) For developers who are interested in [WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/) there is [EdgeSharp](https://github.com/edgesharp/EdgeSharp), an offshoot of Chromely.
+For developers who are interested in [WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/) there is [EdgeSharp](https://github.com/edgesharp/EdgeSharp), an offshoot of Chromely.
 
 Chromely is a lightweight alternative to <a href="https://github.com/ElectronNET/Electron.NET">Electron.NET</a>, <a href="https://github.com/electron/electron">Electron</a> for .NET/.NET Core developers.
 
